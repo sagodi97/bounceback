@@ -1,0 +1,23 @@
+{
+  "name": "pocpetstore",
+  "version": "1.0.0",
+  "description": "PoC sharing API in DMZ with LAN isolation",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js",
+    "start": "node app.js",
+    "postinstall": "node app.js"
+  },
+  "author": "Santiago Gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "raw-body": "^2.4.1"
+  },
+  "bundledDependencies": [
+    "express",
+    "body-parser"
+  ]
+}
