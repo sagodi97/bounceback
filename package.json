@@ -1,7 +1,7 @@
 {
   "name": "pocpetstore",
   "version": "1.0.0",
-  "description": "PoC sharing API in DMZ with LAN isolation",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "nodemon app.js",
