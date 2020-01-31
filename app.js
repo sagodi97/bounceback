@@ -25,4 +25,4 @@ app.post("/", (req, res) => {
   res.send(req.text);
 });
 
-app.listen(port, "0.0.0.0", () => console.log(`Bounceback is now live on ${port}`));
+app.listen(port, "0.0.0.0", () => console.log(`Bounceback is now live and listening on ${port}`));
