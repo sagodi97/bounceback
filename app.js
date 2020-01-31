@@ -21,7 +21,7 @@ app.use(function(req, res, next) {
 const port = process.env.PORT || 1997;
 
 app.post("/", (req, res) => {
-  console.log(`POST REQ from ${req.hostname}:\n\n ${req.text}`);
+  console.log(`POST REQUEST from ${req.hostname}:\n\n ${req.text}`);
   res.send(req.text);
 });
 
